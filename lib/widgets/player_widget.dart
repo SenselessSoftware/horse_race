@@ -32,7 +32,7 @@ class PlayerWidget extends StatelessWidget {
     ImageProvider getImage() {
       if (player.imagePath.startsWith('assets')) {
         // Reverting to use local images from the main project's assets.
-        return AssetImage(player.imagePath);
+        return AssetImage(player.imagePath, package: 'player_model');
       } else {
         // Images from camera/gallery are loaded as files.
         return FileImage(File(player.imagePath));
