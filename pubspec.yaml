@@ -46,7 +46,7 @@ dependencies:
     git:
       url: https://github.com/senselesssoftware/player_model.git
       # You can optionally point to a specific branch, tag, or commit
-      ref: main
+      ref: v1.0.1
 
 
 dev_dependencies:
